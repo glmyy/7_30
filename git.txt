@@ -1,0 +1,58 @@
+1 代码不能放在本地   因为安全性
+2 所以东西要保存到线上
+
+
+github可以看到开源代码   
+
+git其实就是版本控制工具（也是代码管理工具），提交代码到仓库，更新代码到本地的一个操作软件
+
+
+
+
+gitHub是一个面向开源及私有软件项目的托管平台，是近几年特别火的一个托管平台
+（1,都应该会操作git      2,SVN:简称小乌龟）
+git适合大项目多人开发 ，如阿里百度   
+
+
+1   git init   初始化代码仓库
+2   git add 新文件/git add . (全部添加)
+3   git  commit -m "提交日志"
+4   git remote add origin 仓库地址（第一次与仓库建立连接）
+5   git  push 推送到远程仓库（第一次推送命令git push -u origin master）
+以后推送只输入git push 即可
+6   git pull更新项目/更新代码
+
+git clone  下载别人git hub上的东西
+
+
+git branch  aa      创建分支aa
+git checkout aa   切换到aa分支
+git branch -d aa   删除aa分支
+
+公司分支最多5个    dev开发的   test测试的   master总监
+程序员开发的永远是源码
+
+其他分支先提交给技术总监    总监审查后再往上提交
+
+
+
+require.js   按需加载
+
+
+node_modules  这个文件夹就是用来存放一些线上线下插件的文件夹（依赖文件）
+
+jade 语法 pug    
+
+
+程序员每天早上先下载更新代码   晚上做完后都要上传
+
+
+ssh-keygen -t rsa -C 
+
+ssh -T git@github.com
+
+
+
+Repository
+
+node.js 是一个非阻塞性的跑在前端浏览器下的后端语言   
